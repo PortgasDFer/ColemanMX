@@ -14,7 +14,7 @@
                     @endif
                     <a href="/home">Volver al inicio.</a>
                     <hr>
-                    <form action="/regProductos" method="POST" enctype="">
+                    <form action="/regProductos" method="POST" enctype="multipart/form-data">
                         @csrf
                         <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">Nombre del producto</label>
@@ -37,12 +37,18 @@
                         <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">Categoria</label>
                             <div class="col-md-6">
-                                <select class="form-control">
+                                <select class="form-control" name="categoria">
                                   <option>Default select</option>
                                   @foreach($categorias as $c)
                                     <option value="{{$c->id}}">{{$c->nombre}}</option>
                                   @endforeach
                                 </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="name" class="col-md-4 col-form-label text-md-right">Registrar</label>
+                            <div class="col-md-6">
+                                <button type="submit" class="btn btn-block btn-lg btn-primary">Registrar</button>
                             </div>
                         </div>
                     </form>
