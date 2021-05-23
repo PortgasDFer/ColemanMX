@@ -22,7 +22,7 @@ body{
 
 header .navbar{
   padding: 0;
-  background-color: rgba(0, 0, 0, .5);
+  background-color:rgba(0,0,0,.2);
   color: #fff;
   position: absolute;
 
@@ -36,6 +36,7 @@ header .navbar{
 .nav__link{
   color:#fff;
   margin: auto;
+  font-size: 20px;
   text-decoration: none;
   padding: 1.75rem 1rem;
   display: block;
@@ -47,9 +48,10 @@ header .navbar{
 
 .nav__link:hover{
   background-color: #fff !important;
-  color:#183883 !important;
+  color: red !important;
   text-decoration: none;
   margin-top: 0;
+   padding: 1.75rem 1rem;
   margin-bottom: 0;
   border-radius: 5px 5px 5px 5px;
 }
@@ -63,8 +65,9 @@ header .navbar{
 }
 
 .nav__link_producto{
-  color:#fff;
+  color: #fff;
   margin: auto;
+  font-size: 15px;
   text-decoration: none;
   padding: 1.75rem 1rem;
   display: block;

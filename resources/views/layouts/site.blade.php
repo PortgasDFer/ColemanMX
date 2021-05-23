@@ -12,7 +12,7 @@
 </head>
 <body>
 	<header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="opacity: .5;">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
           <img src="#" alt="coleman logo" class="logo_nav">
           <a class="navbar-brand" href="#" style="color:white;">COLEMAN MX</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,5 +43,6 @@
 			<img src="http://s2.accesoperu.com/logos/btn_whatsapp.png" alt="">
 		</a>
 	</div>
+
 </body>
 </html>

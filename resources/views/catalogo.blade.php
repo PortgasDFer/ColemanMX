@@ -6,17 +6,57 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active nav__link_producto">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+    <ul class="navbar-nav m-auto">
+      <li class="nav-item active">
+        <a class="nav__link_producto" href="#">Casas de campaña</a>
       </li>
-      <li class="nav-item nav__link_producto">
-        <a class="nav-link" href="#">Features</a>
+      <li class="nav-item">
+        <a class="nav__link_producto" href="#">Sacos de dormir</a>
       </li>
-      <li class="nav-item nav__link_producto">
-        <a class="nav-link" href="#">Pricing</a>
+      <li class="nav-item">
+        <a class="nav__link_producto" href="#">Hieleras y termos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav__link_producto" href="#">Hieleras y Termos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav__link_producto" href="#">Lamparas y Estufcas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav__link_producto" href="#">Accesorios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav__link_producto" href="#">Colchones</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav__link_producto" href="#">Playa</a>
       </li>
     </ul>
   </div>
 </nav>
+<div class="container mt-4">
+	<div class="m-auto">
+		<button class="btn btn-lg btn-block btn-danger">HAZ TU PEDIDO</button>
+	</div>
+	<div class="row mt-4">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+			<figure class="figure">
+			  <img src="https://i.linio.com/p/069f8ff60ad6aea9bc15d34a1ac3b20b-catalog.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+			  <figcaption class="figure-caption">A caption for the above image.</figcaption>
+			</figure>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+			<figure class="figure">
+			  <img src="https://i.linio.com/p/069f8ff60ad6aea9bc15d34a1ac3b20b-catalog.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+			  <figcaption class="figure-caption">A caption for the above image.</figcaption>
+			</figure>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+			<figure class="figure">
+			  <img src="https://i.linio.com/p/069f8ff60ad6aea9bc15d34a1ac3b20b-catalog.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+			  <figcaption class="figure-caption">A caption for the above image.</figcaption>
+			</figure>
+		</div>
+	</div>
+</div>
 @endsection
