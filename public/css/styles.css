@@ -10,12 +10,11 @@ body{
 
 .header{
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   padding: 5rem;
   background: linear-gradient(to right, black, gray), url(/img/bg.jpg);
   background-size: cover;
   background-blend-mode: screen;
-  margin-bottom: 18px;
 
 }
 
@@ -55,7 +54,34 @@ header .navbar{
   border-radius: 5px 5px 5px 5px;
 }
 
+.navbar__productos{
+  padding: 0;
+  background-color: red;
+  color: #fff;
+  position: absolute;
 
+}
+
+.nav__link_producto{
+  color:#fff;
+  margin: auto;
+  text-decoration: none;
+  padding: 1.75rem 1rem;
+  display: block;
+  text-align: center;
+  margin: 0;
+  border: none;
+  opacity: 1;
+}
+
+.nav__link_producto:hover{
+  background-color: gray !important;
+  color:#fff !important;
+  text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 5px 5px 5px 5px;
+}
 
 h2{
   font-size: 42px;

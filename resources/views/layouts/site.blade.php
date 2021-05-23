@@ -37,9 +37,7 @@
         </nav>
         @yield('header')
     </header>
-    <div class="container">
     	@yield('content')
-    </div>
     <div class="btn-whatsapp">
 		<a href="https://api.whatsapp.com/send?phone=" target="_blank">
 			<img src="http://s2.accesoperu.com/logos/btn_whatsapp.png" alt="">
