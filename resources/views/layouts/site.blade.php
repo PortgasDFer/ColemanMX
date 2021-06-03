@@ -6,6 +6,7 @@
 	<title>Document</title>
 	<!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -29,18 +30,23 @@
         			<a class="nav__link" href="#">Catalogo</a>
         		</li>
         		<li class="nav-item">
-        			<a class="nav__link" href="#">Contacto</a>
+        			<a class="nav__link" href="#"><i class="fa fa-phone" aria-hidden="true"></i> 525549716065 </a>
         		</li>
         </div>
     </nav>
     @yield('header')
   </header>
     	@yield('content')
-    <div class="btn-whatsapp">
-		<a href="https://api.whatsapp.com/send?phone=" target="_blank">
+  <div class="btn-whatsapp">
+		<a href="https://wa.me/525549716065" target="_blank">
 			<img src="http://s2.accesoperu.com/logos/btn_whatsapp.png" alt="">
 		</a>
 	</div>
+  <div class="btn-messenger">
+    <a href="https://wa.me/525549716065" target="_blank">
+      <img src="{{asset('img/icon-messenger.png')}}" alt="">
+    </a>
+  </div>
 
 </body>
 </html>
