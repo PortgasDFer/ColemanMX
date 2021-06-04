@@ -64,5 +64,25 @@
 			</form>
 		</div>
 	</div>
+
+	<div class="row mt-4">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+			<div class="embed-responsive embed-responsive-4by3">
+				<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1882.3397221627013!2d-99.0599108!3d19.3397114!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0283ba2c6ba7%3A0xd6cdb096bbc9af42!2sColeman%20Camping%20M%C3%A9xico!5e0!3m2!1ses-419!2smx!4v1622775157519!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+			<div class="card bg-danger">
+				<div class="card-body">
+					
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+			<div class="embed-responsive embed-responsive-4by3">
+				<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/xuJZEryQvks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
 </div>
 @endsection
