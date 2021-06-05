@@ -29,9 +29,11 @@
 <div class="container">
 	<div class="row mt-4">
 		<div class="col-xs-12 col-sm-12 col-md-6">
-			<h1>COLEMAN MÉXICO</h1>
-			<h2>¿Por qué elegirnos?</h2>
-			<p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, quia! Autem amet, aut quia corrupti, distinctio fugit iste laudantium, quidem asperiores, earum tempora pariatur dolorem dolorum molestias necessitatibus inventore. Mollitia.</p>
+			<div class="justify-content-center">
+				<h1>COLEMAN MÉXICO</h1>
+				<h2>¿Por qué elegirnos?</h2>
+				<p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, quia! Autem amet, aut quia corrupti, distinctio fugit iste laudantium, quidem asperiores, earum tempora pariatur dolorem dolorum molestias necessitatibus inventore. Mollitia.</p>
+			</div>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-6">
 			<form action="">
@@ -73,8 +75,17 @@
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
 			<div class="card bg-danger">
-				<div class="card-body">
-					
+				<div class="card-body text-center text-white">
+					<h4>Contactanos</h4>
+						Av.Morelos N°20 Col. Las peñas <br>
+						Alcaldía Iztapalapa C.P. 09750
+						<hr>
+						ventas@colemanmx.com.mx
+						<hr>
+						Teléfono:
+						55 5037 6191 / 55 6797 6684 <br>
+						<button type="button" class="btn btn-outline-light"><i class="fa fa-whatsapp" aria-hidden="true"></i></button>
+						<button type="button" class="btn btn-outline-light"><i class="fa fa-facebook" aria-hidden="true"></i></button>
 				</div>
 			</div>
 		</div>
@@ -85,4 +96,18 @@
 		</div>
 	</div>
 </div>
+<!-- Footer -->
+<footer class="page-footer font-small teal pt-4">
+  <!-- Footer Text -->
+  <div class="container-fluid text-center text-md-left">
+  </div>
+  <!-- Footer Text -->
+  <!-- Copyright -->
+  <div class="footer-copyright bg-danger mr-auto ml-auto py-3">
+  	<div class="text-footer">© 2021 Copyright: COLEMANMX
+    DISTRIBUIDOR A TODO MÉXICO Y LATINOAMERICA</div>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
 @endsection
