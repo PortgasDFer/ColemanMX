@@ -24,10 +24,10 @@
         </ul>
         <div class="navbar-nav my-2 my-lg-0">
             <li class="nav-item">
-        			<a class="nav__link" href="#">Inicio</a>
+        			<a class="nav__link" href="/">Inicio</a>
         		</li>
         		<li class="nav-item">
-        			<a class="nav__link" href="#">Catalogo</a>
+        			<a class="nav__link" href="/catalogo">Catalogo</a>
         		</li>
         		<li class="nav-item">
         			<a class="nav__link" href="#"><i class="fa fa-phone" aria-hidden="true"></i> 525549716065 </a>
@@ -37,6 +37,20 @@
     @yield('header')
   </header>
     	@yield('content')
+      <!-- Footer -->
+      <footer class="page-footer font-small teal pt-4">
+        <!-- Footer Text -->
+        <div class="container-fluid text-center text-md-left">
+        </div>
+        <!-- Footer Text -->
+        <!-- Copyright -->
+        <div class="footer-copyright bg-danger mr-auto ml-auto py-3">
+          <div class="text-footer">© 2021 Copyright: COLEMANMX
+          DISTRIBUIDOR A TODO MÉXICO Y LATINOAMERICA</div>
+        </div>
+        <!-- Copyright -->
+      </footer>
+<!-- Footer -->
   <div class="btn-whatsapp">
 		<a href="https://wa.me/525549716065" target="_blank">
 			<img src="http://s2.accesoperu.com/logos/btn_whatsapp.png" alt="">

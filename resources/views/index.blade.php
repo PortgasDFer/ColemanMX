@@ -29,7 +29,7 @@
 <div class="container">
 	<div class="row mt-4">
 		<div class="col-xs-12 col-sm-12 col-md-6">
-			<div class="justify-content-center">
+			<div class="d-grid gap-2 d-md-block">
 				<h1>COLEMAN MÉXICO</h1>
 				<h2>¿Por qué elegirnos?</h2>
 				<p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, quia! Autem amet, aut quia corrupti, distinctio fugit iste laudantium, quidem asperiores, earum tempora pariatur dolorem dolorum molestias necessitatibus inventore. Mollitia.</p>
@@ -96,18 +96,4 @@
 		</div>
 	</div>
 </div>
-<!-- Footer -->
-<footer class="page-footer font-small teal pt-4">
-  <!-- Footer Text -->
-  <div class="container-fluid text-center text-md-left">
-  </div>
-  <!-- Footer Text -->
-  <!-- Copyright -->
-  <div class="footer-copyright bg-danger mr-auto ml-auto py-3">
-  	<div class="text-footer">© 2021 Copyright: COLEMANMX
-    DISTRIBUIDOR A TODO MÉXICO Y LATINOAMERICA</div>
-  </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
 @endsection
