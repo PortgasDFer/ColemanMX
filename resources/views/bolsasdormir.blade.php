@@ -58,7 +58,7 @@
 			<div class="card flex-fill">
         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
           <img
-            src="{{asset('/imgproductos/Saco-de-dormir-coleman-island-go-azul.jpg')}}"
+            src="{{asset('/imgproductos/sacos/Saco-de-dormir-coleman-island-go-azul.webp')}}"
             class="img-fluid"
           />
           <a href="#!">
@@ -84,7 +84,7 @@
 			<div class="card flex-fill">
         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
           <img
-            src="{{asset('/imgproductos/SACO DE DORMIR COLEMAN PALMETTO VINO.jpg')}}"
+            src="{{asset('/imgproductos/sacos/SACO DE DORMIR COLEMAN PALMETTO VINO.webp')}}"
             class="img-fluid"
           />
           <a href="#!">
@@ -110,7 +110,7 @@
 			<div class="card flex-fill">
         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
           <img
-            src="{{asset('/imgproductos/SACO DE DORMIR COLEMAN SILVERTON NARANJA.jpg')}}"
+            src="{{asset('/imgproductos/sacos/SACO DE DORMIR COLEMAN SILVERTON NARANJA.webp')}}"
             class="img-fluid"
           />
           <a href="#!">

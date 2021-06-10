@@ -15,7 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/','PagesController@index')->name('index');
-
+Route::get('/accesorios-coleman-camping','PagesController@accesorios')->name('accesorios');
+Route::get('/accesorios-coleman-camping/page-2','PagesController@accesorios2')->name('accesorios2');
+Route::get('/bolsas-de-dormir-coleman','PagesController@bolsasDormir')->name('bolsasdormir');
 Route::get('/catalogo',function(){
     return view('catalogo');
 });

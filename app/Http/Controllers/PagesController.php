@@ -23,7 +23,7 @@ class PagesController extends Controller
         SEOMeta::setTitle('Inicio');
         SEOMeta::setDescription('Distribuidor de productos coleman en México.');
         SEOMeta::setCanonical('https://www.colemanmx.com.mx/');
-        SEOMeta::setKeywords(['ColemanMX','Coleman México','Distribuidor productos coleman México','Productos Coleman en México']);
+        SEOMeta::setKeywords(['ColemanMX','Coleman México','Distribuidor productos coleman México','Coleman Camping México']);
 
         return view('index');
     }
@@ -42,6 +42,33 @@ class PagesController extends Controller
         Mail::to('contacto@arteyculturaenproteccioncivil.com.mx')->send(new FormularioContacto($mensaje));
         alert()->image('Gracias!','Nos pondremos en contacto a la brevedad','assets/img/contacto/logo_contatco.jpg','160','115');
         return Redirect::to('/');   
+    }
+
+    public function accesorios()
+    {
+        SEOMeta::setTitle('Accesorios Coleman Camping');
+        SEOMeta::setDescription('Distribuidor de productos coleman en México.');
+        SEOMeta::setCanonical('https://www.colemanmx.com.mx/');
+        SEOMeta::setKeywords(['ColemanMX','Coleman México','Distribuidor productos coleman México','Coleman Camping Accesorios','Accesorios Coleman']);
+        return view('accesorios');
+    }
+
+    public function accesorios2()
+    {
+        SEOMeta::setTitle('Accesorios Coleman Camping');
+        SEOMeta::setDescription('Distribuidor de productos coleman en México.');
+        SEOMeta::setCanonical('https://www.colemanmx.com.mx/');
+        SEOMeta::setKeywords(['ColemanMX','Coleman México','Distribuidor productos coleman México','Coleman Camping Accesorios','Accesorios Coleman']);
+        return view('accesorios2');
+    }
+
+    public function bolsasDormir()
+    {
+        SEOMeta::setTitle('Bolsas de dormir Coleman');
+        SEOMeta::setDescription('Distribuidor de productos coleman en México.');
+        SEOMeta::setCanonical('https://www.colemanmx.com.mx/');
+        SEOMeta::setKeywords(['ColemanMX','Coleman México','Distribuidor productos coleman México','Bolsas de dormir Coleman','Bolsas para dormir coleman mexico']);
+        return view('bolsasdormir');
     }
 
 }
