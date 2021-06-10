@@ -18,6 +18,8 @@ Route::get('/','PagesController@index')->name('index');
 Route::get('/accesorios-coleman-camping','PagesController@accesorios')->name('accesorios');
 Route::get('/accesorios-coleman-camping/page-2','PagesController@accesorios2')->name('accesorios2');
 Route::get('/bolsas-de-dormir-coleman','PagesController@bolsasDormir')->name('bolsasdormir');
+Route::get('/estufas-coleman','PagesController@estufas')->name('estufas');
+Route::get('/mesa-y-camastro-coleman','PagesController@mesaCamastro')->name('mesaycamastro');
 Route::get('/catalogo',function(){
     return view('catalogo');
 });

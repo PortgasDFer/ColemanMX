@@ -23,7 +23,7 @@
         <a class="nav__link_producto" href="/bolsas-de-dormir-coleman">Bolsas de dormir</a>
       </li>
       <li class="nav-item">
-        <a class="nav__link_producto" href="/estufas-coleman">Estufas</a>
+        <a class="nav__link_producto" href="#">Estufas</a>
       </li>
       <li class="nav-item">
         <a class="nav__link_producto" href="#">Casas de campaña</a>
@@ -32,10 +32,10 @@
         <a class="nav__link_producto" href="#">Hieleras</a>
       </li>
       <li class="nav-item">
-        <a class="nav__link_producto" href="#">Linternas</a>
+        <a class="nav__link_producto" href="#">Lnternas</a>
       </li>
       <li class="nav-item">
-        <a class="nav__link_producto" href="/mesa-y-camastro-coleman">Mesas y camastros</a>
+        <a class="nav__link_producto" href="#">Mesas y camastros</a>
       </li>
       <li class="nav-item">
         <a class="nav__link_producto" href="#">Sillas</a>
@@ -54,11 +54,11 @@
 		<button class="btn btn-lg btn-block btn-danger">HAZ TU PEDIDO</button>
 	</div>
 	<div class="row mt-4">
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 d-flex">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 d-flex">
 			<div class="card flex-fill">
         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
           <img
-            src="{{asset('/imgproductos/Saco-de-dormir-coleman-island-go-azul.jpg')}}"
+            src="{{asset('/imgproductos/mesaycamastro/Mesa.webp')}}"
             class="img-fluid"
           />
           <a href="#!">
@@ -66,25 +66,25 @@
           </a>
         </div>
         <div class="card-body">
-          <h5 class="card-title">SACO DE DORMIR COLEMAN ISLAND GO AZUL</h5><small>MODELO: 2000022162</small>
+          <h5 class="card-title">MESA PLEGABLE COLEMAN PACK AWAY</h5><small>MODELO: 2000020278</small>
           <p class="card-text">
             <ul>
-              <li>Temperaturas de 12º C.</li>
-              <li>Lavable en máquina.</li>
-              <li>Forro exterior: poliéster.</li>
-              <li>Forro interior: poliéster.</li>
-              <li>Peso: 900 gr.</li>
-              <li>Medidas: 71x188 cm.</li>
+              <li>Comodidad superior, colchon con espuma espesa y muelle de suspension.</li>
+              <li>Estructura de acero de alta resistencia.</li>
+              <li>Tamaño: 175.3 x 63.5 x 38.1 cm.</li>
+              <li>Para personas de hasta 1.90 m de altura.</li>
+              <li>Dimensiones plegado: 87 x 64.5 x 14 cm.</li>
+              <li>Soporta hasta 124.74 kg.</li>
             </ul>
           </p>
         </div>
       </div>
 		</div>
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 d-flex">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 d-flex">
 			<div class="card flex-fill">
         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
           <img
-            src="{{asset('/imgproductos/SACO DE DORMIR COLEMAN PALMETTO VINO.jpg')}}"
+            src="{{asset('/imgproductos/mesaycamastro/Camastro.webp')}}"
             class="img-fluid"
           />
           <a href="#!">
@@ -92,45 +92,16 @@
           </a>
         </div>
         <div class="card-body">
-          <h5 class="card-title">SACO DE DORMIR COLEMAN PALMETTO VINO</h5> <small>MODELO: 2000004418</small>
+          <h5 class="card-title">CATRE CONFORTSMART COLEMAN</h5> <small>MODELO:2000020271</small>
           <p class="card-text">
             <ul>
-              <li>Temperaturas de 12° C.</li>
-              <li>Lavable a máquina.</li>
-              <li>Tipo rectangular.</li>
-              <li>Forro exterior: poliéster cepillado.</li>
-              <li>Forro interior: fibras suaves de poliéster</li>
-              <li>Peso 1.6 Kg. Medidas: 1x2.5m.</li>
-            </ul>
-          </p>
-        </div>
-      </div>
-		</div>
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 d-flex">
-			<div class="card flex-fill">
-        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-          <img
-            src="{{asset('/imgproductos/SACO DE DORMIR COLEMAN SILVERTON NARANJA.jpg')}}"
-            class="img-fluid"
-          />
-          <a href="#!">
-            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-          </a>
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">SACO DE DORMIR COLEMAN SILVERTON NARANJA</h5> <small>Modelo: 2000015768</small>
-          <p class="card-text">
-            <ul>
-              <li>Tamaño 81.28 x 208.3 cm.</li>
-              <li>Temperaturas de -3.89º C. a 1.67º C.</li>
-              <li>Peso: 1.8 Kg.</li>
-              <li>Tipo momia.</li>
-              <li>Tecnología Thermolock.</li>
-              <li>Zip – Plow.</li>
-              <li>Capucha semi-sculpted ayuda a mantener el calor.</li>
-              <li>Lavable en maquina.</li>
-              <li>Forro exterior: poliéster.</li>
-              <li>Forro interior: poliéster.</li>
+              <li>Comodidad superior, colchón con espuma espesa y muelle de suspensión.</li>
+              <li>Estructura de acero de alta resistencia.</li>
+              <li>Tamaño: 175 cm x 63.5 cm x 38 cm.</li>
+              <li>Para personas de hasta 1.90 m de altura.</li>
+              <li>Dimensiones plegado: 87 cm x 64.5 cm x 14 cm.</li>
+              <li>Soporta hasta 124.74 kg.</li>
+              <li>Peso: 7.5 Kg</li>
             </ul>
           </p>
         </div>

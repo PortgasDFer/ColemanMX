@@ -71,4 +71,21 @@ class PagesController extends Controller
         return view('bolsasdormir');
     }
 
+    public function estufas()
+    {
+        SEOMeta::setTitle('Estufas Coleman');
+        SEOMeta::setDescription('Distribuidor de productos coleman en México.');
+        SEOMeta::setCanonical('https://www.colemanmx.com.mx/');
+        SEOMeta::setKeywords(['ColemanMX','Coleman México','Distribuidor productos coleman México','Estufas Coleman precio','Estufas Coleman CDMX']);
+        return view('estufas');
+    }
+
+    public function mesaCamastro()
+    {
+        SEOMeta::setTitle('Estufas Coleman');
+        SEOMeta::setDescription('Distribuidor de productos coleman en México.');
+        SEOMeta::setCanonical('https://www.colemanmx.com.mx/');
+        SEOMeta::setKeywords(['ColemanMX','Coleman México','Distribuidor productos coleman México','Cama coleman','Camastro coleman','Cama y camastro coleman']);
+        return view('mesacamastro');
+    }
 }
