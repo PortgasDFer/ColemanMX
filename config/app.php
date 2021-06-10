@@ -167,6 +167,9 @@ return [
          * 
          */
         Intervention\Image\ImageServiceProvider::class,
+        Artesaos\SEOTools\Providers\SEOToolsServiceProvider::class,
+        Anhskohbo\NoCaptcha\NoCaptchaServiceProvider::class,
+        RealRashid\SweetAlert\SweetAlertServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -228,7 +231,14 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Image' => Intervention\Image\Facades\Image::class,
-
+        'SEO' => Artesaos\SEOTools\Facades\SEOTools::class,
+        'SEOMeta'       => Artesaos\SEOTools\Facades\SEOMeta::class,
+        'OpenGraph'     => Artesaos\SEOTools\Facades\OpenGraph::class,
+        'Twitter'       => Artesaos\SEOTools\Facades\TwitterCard::class,
+        'JsonLd'        => Artesaos\SEOTools\Facades\JsonLd::class,
+        'JsonLdMulti'   => Artesaos\SEOTools\Facades\JsonLdMulti::class,
+        'NoCaptcha' => Anhskohbo\NoCaptcha\Facades\NoCaptcha::class,
+        'Alert' => RealRashid\SweetAlert\Facades\Alert::class,
     ],
 
 ];

@@ -3,18 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
 	<!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    @yield('seo')
 </head>
 <body>
 	<header>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-      <img src="{{asset('img/coleman-logo.webp')}}" alt="coleman logo" >
+      <img src="{{asset('img/logocoleman.png')}}" alt="coleman logo" >
       <a class="navbar-brand" href="#" style="color:white;"></a>
       <button class="navbar-toggler nav__link" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,7 +30,7 @@
         			<a class="nav__link" href="/catalogo">Catalogo</a>
         		</li>
         		<li class="nav-item">
-        			<a class="nav__link" href="#"><i class="fa fa-phone" aria-hidden="true"></i> 525549716065 </a>
+        			<a class="nav__link" href="tel:525549716065"><i class="fa fa-phone" aria-hidden="true"></i> 525549716065 </a>
         		</li>
         </div>
     </nav>
@@ -61,6 +61,6 @@
       <img src="{{asset('img/icon-messenger.png')}}" alt="">
     </a>
   </div>
-
+  @include('sweetalert::alert')
 </body>
 </html>

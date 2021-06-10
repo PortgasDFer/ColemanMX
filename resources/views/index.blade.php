@@ -1,3 +1,8 @@
+@section('seo')
+{!! SEO::generate() !!}
+
+@endsection
+
 @extends('layouts.site')
 @section('content')
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -41,13 +46,13 @@
 				<div class="form-group row">
 					<div class="col-xs-12 col-md-12">
 						<label for="Nombre">Nombre</label>
-						<input type="text" class="form-control">
+						<input type="text" class="form-control" name="name">
 					</div>
 				</div>
 				<div class="form-group row">
 					<div class="col-xs-12 col-sm-12 col-md-6">
 						<label for="">Correo</label>
-						<input type="text" class="form-control">
+						<input type="text" class="form-control" name="email">
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-6">
 						<label for="">Número de teléfono</label>
@@ -57,9 +62,21 @@
 				<div class="form-group row">
 					<div class="col-xs-12 col-md-12">
 						<label for="">Mensaje</label>
-						<textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+						<textarea name="" id="" cols="30" rows="10" class="form-control" name="message"></textarea>
 					</div>
 				</div>
+				<div class="form-group{{ $errors->has('g-recaptcha-response') ? ' has-error' : '' }}">
+					{!! NoCaptcha::renderJs() !!}
+            <label class="col-md-4 control-label">Captcha</label>
+            <div class="col-md-6">
+                {!! app('captcha')->display() !!}
+                @if ($errors->has('g-recaptcha-response'))
+                    <span class="help-block">
+                        <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
+                    </span>
+                @endif
+            </div>
+        </div>
 				<div class="form-group">
 					<button type="submit" class="btn btn-primary">Enviar</button>
 				</div>
@@ -77,15 +94,13 @@
 			<div class="card bg-danger">
 				<div class="card-body text-center text-white">
 					<h4>Contactanos</h4>
-						Av.Morelos N°20 Col. Las peñas <br>
-						Alcaldía Iztapalapa C.P. 09750
+						AV. 5 de Mayo Mz 12 Lt 1. Col. Francisco Villa<br>
+						Alcaldía Iztapalapa C.P. 09720 CDMX
 						<hr>
-						ventas@colemanmx.com.mx
-						<hr>
+						ventas@colemanmx.com.mx <br>
 						Teléfono:
-						55 5037 6191 / 55 6797 6684 <br>
-						<button type="button" class="btn btn-outline-light"><i class="fa fa-whatsapp" aria-hidden="true"></i></button>
-						<button type="button" class="btn btn-outline-light"><i class="fa fa-facebook" aria-hidden="true"></i></button>
+						55 5037 6191 / 55 4971 6065 <br>
+						<a href="https://www.instagram.com/colemancampingmexico"><button type="button" class="btn btn-outline-light"><i class="fa fa-instagram" aria-hidden="true"></i></button></a>						<a href="https://www.facebook.com/ColemanCampingMexico/"><button type="button" class="btn btn-outline-light"><i class="fa fa-facebook" aria-hidden="true"></i></button></a>
 				</div>
 			</div>
 		</div>
