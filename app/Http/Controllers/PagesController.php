@@ -82,10 +82,28 @@ class PagesController extends Controller
 
     public function mesaCamastro()
     {
-        SEOMeta::setTitle('Estufas Coleman');
+        SEOMeta::setTitle('Mesa y Camastro');
         SEOMeta::setDescription('Distribuidor de productos coleman en México.');
         SEOMeta::setCanonical('https://www.colemanmx.com.mx/');
         SEOMeta::setKeywords(['ColemanMX','Coleman México','Distribuidor productos coleman México','Cama coleman','Camastro coleman','Cama y camastro coleman']);
         return view('mesacamastro');
+    }
+
+    public function linternas()
+    {
+        SEOMeta::setTitle('Linternas coleman');
+        SEOMeta::setDescription('Distribuidor de productos coleman en México.');
+        SEOMeta::setCanonical('https://www.colemanmx.com.mx/');
+        SEOMeta::setKeywords(['ColemanMX','Coleman México','Distribuidor productos coleman México','Linternas camping','Linternas para campamento','Linternas marca coleman']);
+        return view('linternas');
+    }
+
+    public function sillas()
+    {
+        SEOMeta::setTitle('Sillas coleman');
+        SEOMeta::setDescription('Distribuidor de productos coleman en México.');
+        SEOMeta::setCanonical('https://www.colemanmx.com.mx/');
+        SEOMeta::setKeywords(['ColemanMX','Coleman México','Distribuidor productos coleman México','Linternas camping','Linternas para campamento','Linternas marca coleman']);
+        return view('sillas');
     }
 }

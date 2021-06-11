@@ -32,7 +32,7 @@
         <a class="nav__link_producto" href="#">Hieleras</a>
       </li>
       <li class="nav-item">
-        <a class="nav__link_producto" href="#">Linternas</a>
+        <a class="nav__link_producto" href="/linternas-coleman">Linternas</a>
       </li>
       <li class="nav-item">
         <a class="nav__link_producto" href="/mesa-y-camastro-coleman">Mesas y camastros</a>
