@@ -159,4 +159,13 @@ class PagesController extends Controller
         SEOMeta::setKeywords(['ColemanMX','Coleman México','Distribuidor productos coleman México','Termos Coleman precio','Termos Coleman']);
         return view('termos');
     }
+
+    public function termos()
+    {
+        SEOMeta::setTitle('Toldos Coleman');
+        SEOMeta::setDescription('Distribuidor de productos coleman en México.');
+        SEOMeta::setCanonical('https://www.colemanmx.com.mx/');
+        SEOMeta::setKeywords(['ColemanMX','Coleman México','Distribuidor productos coleman México','Toldos Coleman precio','Toldos Coleman']);
+        return view('toldos');
+    }
 }

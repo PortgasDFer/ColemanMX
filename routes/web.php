@@ -28,6 +28,7 @@ Route::get('/hieleras-coleman/page-3','PagesController@hieleras3')->name('hieler
 Route::get('/casas-de-campaña-coleman','PagesController@casas1')->name('casas1');
 Route::get('/casas-de-campaña-coleman/page-2','PagesController@casas2')->name('casas2');
 Route::get('/termos-coleman','PagesController@termos')->name('termos');
+Route::get('/toldos-coleman','PagesController@toldos')->name('toldos');
 Route::get('/catalogo',function(){
     return view('catalogo');
 });
