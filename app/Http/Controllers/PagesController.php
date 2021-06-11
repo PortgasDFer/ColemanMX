@@ -132,4 +132,31 @@ class PagesController extends Controller
         SEOMeta::setKeywords(['ColemanMX','Coleman México','Distribuidor productos coleman México','Hieleras Coleman','Precio Hieleras coleman','Hieleras en México']);
         return view('hieleras3');
     }
+
+    public function casas1()
+    {
+        SEOMeta::setTitle('Hieleras coleman');
+        SEOMeta::setDescription('Distribuidor de productos coleman en México.');
+        SEOMeta::setCanonical('https://www.colemanmx.com.mx/');
+        SEOMeta::setKeywords(['ColemanMX','Coleman México','Distribuidor productos coleman México','Casas de campaña Coleman','Coleman Camping','Casas de campamento']);
+        return view('casas1');
+    }
+
+    public function casas2()
+    {
+        SEOMeta::setTitle('Hieleras coleman');
+        SEOMeta::setDescription('Distribuidor de productos coleman en México.');
+        SEOMeta::setCanonical('https://www.colemanmx.com.mx/');
+        SEOMeta::setKeywords(['ColemanMX','Coleman México','Distribuidor productos coleman México','Casas de campaña Coleman','Coleman Camping','Casas de campamento']);
+        return view('casas2');
+    }
+
+    public function termos()
+    {
+        SEOMeta::setTitle('Termos coleman');
+        SEOMeta::setDescription('Distribuidor de productos coleman en México.');
+        SEOMeta::setCanonical('https://www.colemanmx.com.mx/');
+        SEOMeta::setKeywords(['ColemanMX','Coleman México','Distribuidor productos coleman México','Termos Coleman precio','Termos Coleman']);
+        return view('termos');
+    }
 }

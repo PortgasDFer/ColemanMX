@@ -25,6 +25,9 @@ Route::get('/mesa-y-camastro-coleman','PagesController@mesaCamastro')->name('mes
 Route::get('/hieleras-coleman','PagesController@hieleras')->name('hieleras1');
 Route::get('/hieleras-coleman/page-2','PagesController@hieleras2')->name('hieleras2');
 Route::get('/hieleras-coleman/page-3','PagesController@hieleras3')->name('hieleras3');
+Route::get('/casas-de-campaña-coleman','PagesController@casas1')->name('casas1');
+Route::get('/casas-de-campaña-coleman/page-2','PagesController@casas2')->name('casas2');
+Route::get('/termos-coleman','PagesController@termos')->name('termos');
 Route::get('/catalogo',function(){
     return view('catalogo');
 });
