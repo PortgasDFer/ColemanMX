@@ -38,7 +38,7 @@
         <a class="nav__link_producto" href="/mesa-y-camastro-coleman">Mesas y camastros</a>
       </li>
       <li class="nav-item">
-        <a class="nav__link_producto" href="#">Sillas</a>
+        <a class="nav__link_producto" href="/sillas-coleman">Sillas</a>
       </li>
       <li class="nav-item">
         <a class="nav__link_producto" href="#">Termos</a>

@@ -106,4 +106,30 @@ class PagesController extends Controller
         SEOMeta::setKeywords(['ColemanMX','Coleman México','Distribuidor productos coleman México','Linternas camping','Linternas para campamento','Linternas marca coleman']);
         return view('sillas');
     }
+
+    public function hieleras()
+    {
+        SEOMeta::setTitle('Hieleras coleman');
+        SEOMeta::setDescription('Distribuidor de productos coleman en México.');
+        SEOMeta::setCanonical('https://www.colemanmx.com.mx/');
+        SEOMeta::setKeywords(['ColemanMX','Coleman México','Distribuidor productos coleman México','Hieleras Coleman','Precio Hieleras coleman','Hieleras en México']);
+        return view('hieleras');
+    }
+
+    public function hieleras2()
+    {
+        SEOMeta::setTitle('Hieleras coleman');
+        SEOMeta::setDescription('Distribuidor de productos coleman en México.');
+        SEOMeta::setCanonical('https://www.colemanmx.com.mx/');
+        SEOMeta::setKeywords(['ColemanMX','Coleman México','Distribuidor productos coleman México','Hieleras Coleman','Precio Hieleras coleman','Hieleras en México']);
+        return view('hieleras2');
+    }
+    public function hieleras3()
+    {
+        SEOMeta::setTitle('Hieleras coleman');
+        SEOMeta::setDescription('Distribuidor de productos coleman en México.');
+        SEOMeta::setCanonical('https://www.colemanmx.com.mx/');
+        SEOMeta::setKeywords(['ColemanMX','Coleman México','Distribuidor productos coleman México','Hieleras Coleman','Precio Hieleras coleman','Hieleras en México']);
+        return view('hieleras3');
+    }
 }
