@@ -63,5 +63,6 @@
     </a>
   </div>
   @include('sweetalert::alert')
+  @yield('scripts')
 </body>
 </html>

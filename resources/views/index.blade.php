@@ -13,13 +13,13 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block hero header" src="img/background-coleman.jpg" alt="First slide">
+        <img data-src="img/background-coleman.jpg" class="d-block hero header lazyLoad" alt="First slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block hero header" src="img/background-coleman-2.jpg" alt="Second slide">
+        <img data-src="img/background-coleman-2.jpg" class="d-block hero header lazyLoad" alt="Second slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block hero header" src="img/background-coleman-3.jpg" alt="Third slide">
+        <img data-src="img/background-coleman-3.jpg" class="d-block hero header lazyLoad" alt="Third slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -111,4 +111,32 @@
 		</div>
 	</div>
 </div>
+@endsection
+@section('scripts')
+<script>
+function onScrollEvent(entries, observer) {
+    entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+            var attributes = entry.target.attributes;
+            var src = attributes['data-src'].textContent;
+            entry.target.src = src;
+            entry.target.classList.add('visible');
+        }
+    });
+}
+
+// Utilizamos como objetivos todos los
+// elementos que tengan la clase lazyLoad,
+// que vimos en el HTML de ejemplo.
+var targets = document.querySelectorAll('.lazyLoad');
+
+// Instanciamos un nuevo observador.
+var observer = new IntersectionObserver(onScrollEvent);
+
+// Y se lo aplicamos a cada una de las
+// imágenes.
+targets.forEach(function(entry) {
+    observer.observe(entry);
+});
+</script>
 @endsection

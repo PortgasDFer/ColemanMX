@@ -18,7 +18,8 @@
         "laravel/framework": "^7.0",
         "laravel/tinker": "^2.0",
         "laravel/ui": "2.4",
-        "realrashid/sweet-alert": "^3.2"
+        "realrashid/sweet-alert": "^3.2",
+        "spatie/laravel-sitemap": "^5.8"
     },
     "require-dev": {
         "facade/ignition": "^2.0",

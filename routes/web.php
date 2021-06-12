@@ -31,12 +31,3 @@ Route::get('/termos-coleman','PagesController@termos')->name('termos');
 Route::get('/toldos-coleman','PagesController@toldos')->name('toldos');
 Route::get('/catalogo','PagesController@catalogo')->name('catalogo');
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-Route::resource('/regProductos','ProductosController');
