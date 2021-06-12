@@ -9,6 +9,7 @@
     <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    {!! SEO::generate() !!}
     @yield('seo')
 </head>
 <body>
@@ -44,21 +45,21 @@
         </div>
         <!-- Footer Text -->
         <!-- Copyright -->
-        <div class="footer-copyright bg-danger mr-auto ml-auto py-3">
-          <div class="text-footer">© 2021 Copyright: COLEMANMX
-          DISTRIBUIDOR A TODO MÉXICO Y LATINOAMERICA</div>
+        <div class="footer-copyright bg-danger mr-auto ml-auto py-3 text-white">
+          © 2021 Copyright: COLEMANMX
+          DISTRIBUIDOR A TODO MÉXICO Y LATINOAMERICA
         </div>
         <!-- Copyright -->
       </footer>
 <!-- Footer -->
   <div class="btn-whatsapp">
 		<a href="https://wa.me/525549716065" target="_blank">
-			<img src="http://s2.accesoperu.com/logos/btn_whatsapp.png" alt="">
+			<img src="{{asset('img/btn_whatsapp.png')}}" alt="">
 		</a>
 	</div>
   <div class="btn-messenger">
     <a href="https://wa.me/525549716065" target="_blank">
-      <img src="{{asset('img/icon-messenger.png')}}" alt="">
+      <img src="{{asset('img/btn_msn.png')}}" alt="">
     </a>
   </div>
   @include('sweetalert::alert')

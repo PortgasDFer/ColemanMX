@@ -8,50 +8,49 @@
 </div>
 @endsection
 @section('content')
-<nav class="navbar navbar-expand-lg navbar-light bg-danger sticky-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top">
   <a class="navbar-brand" href="#"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon" style="color: white;"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarText">
+  <div class="collapse navbar-collapse " id="navbarText">
     <ul class="navbar-nav m-auto">
       <li class="nav-item active">
         <a class="nav__link_producto" href="/accesorios-coleman-camping">Accesorios</a>
       </li>
       <li class="nav-item">
-        <a class="nav__link_producto" href="#">Bolsas de dormir</a>
+        <a class="nav__link_producto" href="/bolsas-de-dormir-coleman">Bolsas de dormir</a>
       </li>
       <li class="nav-item">
-        <a class="nav__link_producto" href="#">Estufas</a>
+        <a class="nav__link_producto" href="/estufas-coleman">Estufas</a>
       </li>
       <li class="nav-item">
-        <a class="nav__link_producto" href="#">Casas de campaña</a>
+        <a class="nav__link_producto" href="/casas-de-campaña-coleman">Casas de campaña</a>
       </li>
       <li class="nav-item">
-        <a class="nav__link_producto" href="#">Hieleras</a>
+        <a class="nav__link_producto" href="/hieleras-coleman">Hieleras</a>
       </li>
       <li class="nav-item">
-        <a class="nav__link_producto" href="#">Lnternas</a>
+        <a class="nav__link_producto" href="/linternas-coleman">Linternas</a>
       </li>
       <li class="nav-item">
-        <a class="nav__link_producto" href="#">Mesas y camastros</a>
+        <a class="nav__link_producto" href="/mesa-y-camastro-coleman">Mesas y camastros</a>
       </li>
       <li class="nav-item">
-        <a class="nav__link_producto" href="#">Sillas</a>
+        <a class="nav__link_producto" href="/sillas-coleman">Sillas</a>
       </li>
       <li class="nav-item">
-        <a class="nav__link_producto" href="#">Termos</a>
+        <a class="nav__link_producto" href="/termos-coleman">Termos</a>
       </li>
       <li class="nav-item">
-        <a class="nav__link_producto" href="#">Toldos</a>
+        <a class="nav__link_producto" href="/toldos-coleman">Toldos</a>
       </li>
     </ul>
   </div>
 </nav>
-
 <div class="container mt-4">
   <div class="m-auto">
-    <button class="btn btn-lg btn-block btn-danger">HAZ TU PEDIDO</button>
+    <a href="https://www.naggabrands.com/collections/all"><button class="btn btn-lg btn-block btn-danger">HAZ TU PEDIDO</button></a>
   </div>
   <div class="row mt-4">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 d-flex">

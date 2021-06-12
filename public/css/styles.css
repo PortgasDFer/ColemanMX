@@ -69,6 +69,7 @@ header .navbar{
   background-color: red;
   color: #fff;
   position: absolute;
+  z-index: 999;
 
 }
 
@@ -83,6 +84,7 @@ header .navbar{
   margin: 0;
   border: none;
   opacity: 1;
+  z-index: 1;
 }
 
 .nav__link_producto:hover{
@@ -94,8 +96,16 @@ header .navbar{
   border-radius: 5px 5px 5px 5px;
 }
 
-h2{
+h1{
   font-size: 42px;
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 0.8em;
+}
+
+
+h2{
+  font-size: 32px;
   color: #000;
   font-weight: 700;
   margin-bottom: 0.8em;
@@ -108,31 +118,31 @@ p{
 }
 
 .btn-whatsapp {
-        display:block;
-        width:70px;
-        height:70px;
-        color#fff;
-        position: fixed;
-        right:20px;
-        bottom:110px;
-        border-radius:50%;
-        line-height:80px;
-        text-align:center;
-        z-index:999;
+  display:block;
+  width:70px;
+  height:70px;
+  color#fff;
+  position: fixed;
+  right:20px;
+  bottom:110px;
+  border-radius:50%;
+  line-height:80px;
+  text-align:center;
+  z-index:2;
 }
 
 .btn-messenger {
-        display:block;
-        width:70px;
-        height:70px;
-        color#fff;
-        position: fixed;
-        right:20px;
-        bottom:20px;
-        border-radius:50%;
-        line-height:80px;
-        text-align:center;
-        z-index:999;
+  display:block;
+  width:70px;
+  height:70px;
+  color#fff;
+  position: fixed;
+  right:20px;
+  bottom:20px;
+  border-radius:50%;
+  line-height:80px;
+  text-align:center;
+  z-index:2;
 }
 
 .text-white{
@@ -144,3 +154,4 @@ p{
   font-weight: 12px;
   color: #ffff;
 }
+

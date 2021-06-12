@@ -1,5 +1,5 @@
 @section('seo')
-{!! SEO::generate() !!}
+
 
 @endsection
 

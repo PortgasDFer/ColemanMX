@@ -44,6 +44,16 @@ class PagesController extends Controller
         return Redirect::to('/');   
     }
 
+    public function catalogo()
+    {
+        SEOMeta::setTitle('Catálogo');
+        SEOMeta::setDescription('Distribuidor de accesorios para camping en México marca Coleman.');
+        SEOMeta::setCanonical('https://www.colemanmx.com.mx/');
+        SEOMeta::setKeywords(['ColemanMX','Coleman México','Distribuidor productos coleman México','Coleman Camping México','Accesorios Camping México']);
+
+        return view('catalogo');
+    }
+
     public function accesorios()
     {
         SEOMeta::setTitle('Accesorios Coleman Camping');
@@ -160,7 +170,7 @@ class PagesController extends Controller
         return view('termos');
     }
 
-    public function termos()
+    public function toldos()
     {
         SEOMeta::setTitle('Toldos Coleman');
         SEOMeta::setDescription('Distribuidor de productos coleman en México.');
